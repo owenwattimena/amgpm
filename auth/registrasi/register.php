@@ -30,15 +30,15 @@
                 <img src="https://cdn.shopify.com/s/files/1/0099/9562/files/Header-Icon-User.png?14597416339728210630" alt="logo">
               </div>
               </center>
-              <form action = "../fungsi/aksi_register.php"  method="POST">
+              <form action = "../../fungsi/aksi_register.php"  method="POST">
                 <div class="form-group">
-                  <input type="text" class="form-control form-control-lg" id="exampleInputUsername1" placeholder="Nama" name="nama">
+                  <input type="text" class="form-control form-control-lg" id="exampleInputUsername1" placeholder="Nama" name="nama" required>
                 </div>
                 <div class="form-group">
-                  <input type="text" class="form-control form-control-lg" id="exampleInputEmail1" placeholder="Username" name="username">
+                  <input type="text" class="form-control form-control-lg" id="exampleInputEmail1" placeholder="Username" name="username" required>
                 </div>
                 <div class="form-group">
-                  <input type="password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Password" name="password">
+                  <input type="password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Password" name="password" required>
                 </div>
                 <div class="mb-4">
                 </div>
